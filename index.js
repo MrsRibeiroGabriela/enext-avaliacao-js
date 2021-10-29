@@ -90,7 +90,7 @@ function adicionarItem(){
   let itemPrice = document.querySelector('#price').value;
 
   if(itemName == '' || itemPrice == ''){
-    alert("Por favor, informar dados do produto a serem adicionados na comanda.");
+    alert("Por favor, informar dados a serem adicionados na comanda.");
   } else {
     //Adicionar novos itens na comanda
     bill.addItem(new Item(itemName, itemPrice));
